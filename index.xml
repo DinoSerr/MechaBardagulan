@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="Mecha Bardagulan Tabletop Repository" indexUrl="https://drive.google.com/file/d/1X8TrdHLYCPlj31ugOfQuW-Z1Xwi_3tj0/view?usp=drive_link" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Mecha Bardagulan Tabletop.gstz" dataType="gamesystem" dataId="9c6f-a477-68d5-f652" dataName="Mecha Bardagulan Tabletop" dataBattleScribeVersion="2.03" dataRevision="1"/>
+  </dataIndexEntries>
+</dataIndex>

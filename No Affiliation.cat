@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f84a-8dd0-9c65-2637" name="No Affiliation" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9c6f-a477-68d5-f652" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="6397-4b5e-f883-b1a6" name="Normal" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9048-a7ab-7c8d-71a5" name="Normal" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="6bed-c673-9cbe-982c">6&quot;</characteristic>
+            <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1"/>
+            <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b"/>
+            <characteristic name="Save" typeId="b795-c28a-5945-6c6a">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3cf0-9b78-2299-a009" name="Advance" hidden="false" targetId="652b-babc-1955-267d" type="rule"/>
+        <infoLink id="eb60-6129-3fb5-9d11" name="Aim-Assist" hidden="false" targetId="53fb-0de7-4ae0-95dc" type="rule"/>
+        <infoLink id="cbbf-6685-8496-9a7f" name="Assess" hidden="false" targetId="2b34-9f14-dfd5-d5f2" type="rule"/>
+        <infoLink id="dab5-0857-98a4-0885" name="Concentrate" hidden="false" targetId="0628-f7d8-76eb-60dd" type="rule"/>
+        <infoLink id="7064-38d2-3291-f296" name="Damage Boost" hidden="false" targetId="9e6a-f730-7a95-2aed" type="rule"/>
+        <infoLink id="c765-edc8-9ba5-da7f" name="Default Melee" hidden="false" targetId="b52a-71be-0d1c-7ae3" type="rule"/>
+        <infoLink id="a390-bbf0-312f-88a5" name="Default Ranged" hidden="false" targetId="6f42-0971-ab8e-5296" type="rule"/>
+        <infoLink id="5077-7670-a3bf-5c45" name="Emergency Reactive Armor" hidden="false" targetId="168e-fdef-82fb-8de6" type="rule"/>
+        <infoLink id="89ae-9729-3826-75af" name="Fly/Hover" hidden="false" targetId="6557-622d-faae-80ab" type="rule"/>
+        <infoLink id="4140-897d-1a6c-8bc6" name="Focus" hidden="false" targetId="79e0-700b-d2c4-0e44" type="rule"/>
+        <infoLink id="a302-ae89-e726-5d60" name="Look out!" hidden="false" targetId="9a53-6a6a-bc70-ef94" type="rule"/>
+        <infoLink id="258f-170f-ebe8-7642" name="Minesweeping" hidden="false" targetId="2927-4bac-10c0-c67a" type="rule"/>
+        <infoLink id="f426-7c83-43c3-6eb9" name="Parry" hidden="false" targetId="9994-4755-0524-5652" type="rule"/>
+        <infoLink id="7eba-f801-e0fa-e439" name="Plant Mine" hidden="false" targetId="b5c5-05bc-811c-574f" type="rule"/>
+        <infoLink id="87e4-531e-c967-286a" name="Ready" hidden="false" targetId="cd82-ae3f-ebd9-b89b" type="rule"/>
+        <infoLink id="9a90-93c8-4745-0b82" name="Repair" hidden="false" targetId="0388-e0ea-7d30-f2b2" type="rule"/>
+        <infoLink id="6b86-91c2-9442-35ef" name="Retreat" hidden="false" targetId="78f7-6ed1-9700-d21e" type="rule"/>
+        <infoLink id="4d37-f961-9121-3c9a" name="Step" hidden="false" targetId="8b36-4bd0-44a8-672d" type="rule"/>
+        <infoLink id="8673-1c92-7045-fa52" name="Throw Grenade" hidden="false" targetId="9761-78bc-1be4-c6f8" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="8e09-4e4c-af10-3aaf" name="Weapon" hidden="false" collective="false" import="true" targetId="76c1-6e0f-cc24-5d95" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0369-9215-9c4e-3081" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="48a6-1929-9f88-8705" name="Defensive" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="6cb7-77d7-f588-87f0" name="[Flash]" hidden="false" collective="false" import="true" type="upgrade">
+                  <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+                  <profiles>
+                    <profile id="6391-a999-ca7f-a308" name="[Flash]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                        <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                        <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                        <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                        <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                        <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                        <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                        <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">(Fast/Normal only) When targeted by an attack, declare this after your reaction. Roll a D6. The target&apos;s Shooting/Fighting quality (choose) is worsened by 1 (if the result is odd) or 2 (if the result is even). (Cooldown: 1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                    <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+        <entryLink id="33fa-11d7-201b-ada5" name="Equipment / Upgrades" hidden="false" collective="false" import="true" targetId="62f7-e2fa-8a14-b663" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c06-bd72-e994-4f4d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="850c-1968-1067-733e" name="Expertise" hidden="false" collective="false" import="true" targetId="14a1-bb65-00cb-cbb0" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="1e9c-60d6-1059-dac1" name="Fighter" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="debd-15d5-4cc6-3b22" name="Fighter" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">5+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">3+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0444-8944-0791-4c0d" name="Balanced" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="65c8-a675-64c7-df38" name="Balanced" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">4+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">4+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55ef-ceda-0382-f37d" name="Gunner" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="aaf2-2015-c520-e608" name="Gunner" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">3+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">5+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="1.0"/>
+        <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a8f-886b-1f60-126d" name="Heavy" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a1d6-5307-ccc2-649e" name="Heavy" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="6bed-c673-9cbe-982c">4&quot;</characteristic>
+            <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1"/>
+            <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b"/>
+            <characteristic name="Save" typeId="b795-c28a-5945-6c6a">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b8c9-134d-0125-bb48" name="Advance" hidden="false" targetId="652b-babc-1955-267d" type="rule"/>
+        <infoLink id="dd84-b14b-c3b0-d976" name="Aim-Assist" hidden="false" targetId="53fb-0de7-4ae0-95dc" type="rule"/>
+        <infoLink id="7ceb-1137-a9b4-7fd2" name="Assess" hidden="false" targetId="2b34-9f14-dfd5-d5f2" type="rule"/>
+        <infoLink id="795d-bef8-1e07-e172" name="Concentrate" hidden="false" targetId="0628-f7d8-76eb-60dd" type="rule"/>
+        <infoLink id="131a-8468-f6b4-7fc3" name="Damage Boost" hidden="false" targetId="9e6a-f730-7a95-2aed" type="rule"/>
+        <infoLink id="8152-010c-cc7c-dd4a" name="Default Melee" hidden="false" targetId="b52a-71be-0d1c-7ae3" type="rule"/>
+        <infoLink id="945c-59ae-11b0-0754" name="Default Ranged" hidden="false" targetId="6f42-0971-ab8e-5296" type="rule"/>
+        <infoLink id="beed-3775-f0fe-c8dc" name="Emergency Reactive Armor" hidden="false" targetId="168e-fdef-82fb-8de6" type="rule"/>
+        <infoLink id="1a38-e766-bcfc-b3fe" name="Fly/Hover" hidden="false" targetId="6557-622d-faae-80ab" type="rule"/>
+        <infoLink id="b758-ec49-4188-b2ad" name="Focus" hidden="false" targetId="79e0-700b-d2c4-0e44" type="rule"/>
+        <infoLink id="d660-be6a-9849-7a8c" name="Look out!" hidden="false" targetId="9a53-6a6a-bc70-ef94" type="rule"/>
+        <infoLink id="69f9-c5c1-39ee-131b" name="Minesweeping" hidden="false" targetId="2927-4bac-10c0-c67a" type="rule"/>
+        <infoLink id="a478-d455-e5f0-98a2" name="Parry" hidden="false" targetId="9994-4755-0524-5652" type="rule"/>
+        <infoLink id="29b0-8809-a2f2-897b" name="Plant Mine" hidden="false" targetId="b5c5-05bc-811c-574f" type="rule"/>
+        <infoLink id="e70d-0416-8a0e-36b7" name="Ready" hidden="false" targetId="cd82-ae3f-ebd9-b89b" type="rule"/>
+        <infoLink id="81b4-63de-479e-6431" name="Repair" hidden="false" targetId="0388-e0ea-7d30-f2b2" type="rule"/>
+        <infoLink id="c0a4-21e0-3c5c-bf8a" name="Retreat" hidden="false" targetId="78f7-6ed1-9700-d21e" type="rule"/>
+        <infoLink id="5721-6f02-f1df-98b7" name="Step" hidden="false" targetId="8b36-4bd0-44a8-672d" type="rule"/>
+        <infoLink id="f9f2-1f65-25cf-31fe" name="Throw Grenade" hidden="false" targetId="9761-78bc-1be4-c6f8" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="719d-f7d6-4de1-a883" name="Weapon" hidden="false" collective="false" import="true" targetId="76c1-6e0f-cc24-5d95" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f7d-a11a-942f-696e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="48d0-6aa3-2703-13ec" name="Equipment / Upgrade" hidden="false" collective="false" import="true" targetId="62f7-e2fa-8a14-b663" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ff-5b4f-c199-5f7f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8363-e84c-7e08-c967" name="Expertise Test" hidden="false" collective="false" import="true" targetId="14a1-bb65-00cb-cbb0" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="d2bb-4bce-e8af-ca05" name="Fighter" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2326-e9f1-ae81-7e24" name="Fighter" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">5+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">3+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f25-f292-36b3-9847" name="Balanced" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0b16-0366-d25f-9376" name="Balanced" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">4+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">4+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="acdf-f384-bac5-03e6" name="Gunner" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2949-2e7a-9506-29fc" name="Gunner" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">3+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">5+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="1.0"/>
+        <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="896c-31ea-e11a-7437" name="Fast" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f062-4aeb-9d51-b431" name="Fast" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="6bed-c673-9cbe-982c">8&quot;</characteristic>
+            <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1"/>
+            <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b"/>
+            <characteristic name="Save" typeId="b795-c28a-5945-6c6a">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cd1a-88d2-9ad6-2070" name="Advance" hidden="false" targetId="652b-babc-1955-267d" type="rule"/>
+        <infoLink id="fc19-85f6-8231-b19a" name="Aim-Assist" hidden="false" targetId="53fb-0de7-4ae0-95dc" type="rule"/>
+        <infoLink id="08a4-cb1f-375f-eeb4" name="Assess" hidden="false" targetId="2b34-9f14-dfd5-d5f2" type="rule"/>
+        <infoLink id="fa2f-9521-6c32-4cae" name="Concentrate" hidden="false" targetId="0628-f7d8-76eb-60dd" type="rule"/>
+        <infoLink id="28f1-e1ff-3934-f7fe" name="Damage Boost" hidden="false" targetId="9e6a-f730-7a95-2aed" type="rule"/>
+        <infoLink id="acab-3e85-1bca-6462" name="Default Melee" hidden="false" targetId="b52a-71be-0d1c-7ae3" type="rule"/>
+        <infoLink id="e37c-9756-d691-6a58" name="Default Ranged" hidden="false" targetId="6f42-0971-ab8e-5296" type="rule"/>
+        <infoLink id="ad24-160f-e840-6791" name="Emergency Reactive Armor" hidden="false" targetId="168e-fdef-82fb-8de6" type="rule"/>
+        <infoLink id="c1b2-cc20-b5a3-1f9e" name="Fly/Hover" hidden="false" targetId="6557-622d-faae-80ab" type="rule"/>
+        <infoLink id="54ef-c9d7-ffcb-c605" name="Focus" hidden="false" targetId="79e0-700b-d2c4-0e44" type="rule"/>
+        <infoLink id="fd33-2e75-884e-b7bd" name="Look out!" hidden="false" targetId="9a53-6a6a-bc70-ef94" type="rule"/>
+        <infoLink id="c621-b78b-5521-ad70" name="Minesweeping" hidden="false" targetId="2927-4bac-10c0-c67a" type="rule"/>
+        <infoLink id="3af3-8134-690e-d12c" name="Parry" hidden="false" targetId="9994-4755-0524-5652" type="rule"/>
+        <infoLink id="68fe-614f-09ba-e993" name="Plant Mine" hidden="false" targetId="b5c5-05bc-811c-574f" type="rule"/>
+        <infoLink id="8b6a-e43d-ed1b-0c11" name="Ready" hidden="false" targetId="cd82-ae3f-ebd9-b89b" type="rule"/>
+        <infoLink id="7fa9-d2ce-2f7a-9789" name="Repair" hidden="false" targetId="0388-e0ea-7d30-f2b2" type="rule"/>
+        <infoLink id="1e51-7a59-c624-e349" name="Retreat" hidden="false" targetId="78f7-6ed1-9700-d21e" type="rule"/>
+        <infoLink id="4ae7-e323-ba01-c5ec" name="Step" hidden="false" targetId="8b36-4bd0-44a8-672d" type="rule"/>
+        <infoLink id="d266-bae5-8c80-8502" name="Throw Grenade" hidden="false" targetId="9761-78bc-1be4-c6f8" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ebd6-9936-8838-7549" name="Weapon" hidden="false" collective="false" import="true" targetId="76c1-6e0f-cc24-5d95" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae5-7ace-14ba-17ba" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="eb83-fefa-c4f4-652f" name="Defensive" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="fb48-a0ec-bff0-cb81" name="[Counterattack]" hidden="false" collective="false" import="true" type="upgrade">
+                  <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+                  <profiles>
+                    <profile id="52d7-15d1-03cb-7467" name="[Counterattack]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                        <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                        <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                        <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                        <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                        <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                        <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                        <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">(Fast units only) After a successful [Parry]:
+ - Confirm range (Ignore if No pre-measuring is On). The target cannot react.
+ - Pick one from your available Melee/Ranged weapons (Pay for half the needed CP, rounding up if needed)
+ - Resolve the attack (Hit &gt; Save &gt; Damage)
+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                    <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d579-dd0b-5210-4700" name="[Flash]" hidden="false" collective="false" import="true" type="upgrade">
+                  <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+                  <profiles>
+                    <profile id="d8f6-bc56-6e74-10ff" name="[Flash]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                        <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                        <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                        <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                        <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                        <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                        <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                        <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">(Fast/Normal only) When targeted by an attack, declare this after your reaction. Roll a D6. The target&apos;s Shooting/Fighting quality (choose) is worsened by 1 (if the result is odd) or 2 (if the result is even). (Cooldown: 1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                    <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+        <entryLink id="5cb7-bc99-2788-3c77" name="Equipment / Upgrade" hidden="false" collective="false" import="true" targetId="62f7-e2fa-8a14-b663" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd0b-804f-a61e-4bf6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a775-87eb-56d1-c7ce" name="Expertise Test" hidden="false" collective="false" import="true" targetId="14a1-bb65-00cb-cbb0" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="dbfd-2717-6abd-eba3" name="Fighter" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="07a7-35c5-a666-608e" name="Fighter" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">5+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">3+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b9b-10c7-a080-5e95" name="Balanced" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="23eb-9ff1-2026-2c8c" name="Balanced" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">4+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">4+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5624-f14a-b0a4-17d3" name="Gunner" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3db7-c876-f994-854d" name="Gunner" hidden="false" typeId="462b-f52b-b965-baae" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6bed-c673-9cbe-982c"/>
+                    <characteristic name="Shooting" typeId="056c-20b4-fbc7-91c1">3+</characteristic>
+                    <characteristic name="Fighting" typeId="928a-d020-d5eb-a49b">5+</characteristic>
+                    <characteristic name="Save" typeId="b795-c28a-5945-6c6a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="1.0"/>
+        <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="62f7-e2fa-8a14-b663" name="Equipment / Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42da-5800-1945-3461" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e913-d04a-fd49-f420" name="[Acid Grenade]" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="6716-9d98-c9de-df3e" name="[Acid Grenade]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 6&quot;</characteristic>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Roll a 4+ to activate; 5-inch indiscriminate effect radius from the center, area within the radius becomes Corrosive (Worsen Save by 1) for 2 turns.
+ - Destroys Obscuring terrain.
+ - Damage 1 per turn. Uses: 3. Line of Sight not blocked by Low Cover, Obscuring terrain.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="730d-8f83-44e3-0bf7" name="[Acid Mine]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="c9ce-6f17-f359-ad7c" name="[Acid Mine]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3&quot;</characteristic>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">SETUP: Plant a hidden mine within 3&quot; from the unit performing this action.
+
+DETONATION: 3&quot; from marker center. Player who placed the mine must roll 1D6, activates on a 3+ (6-inch indiscriminate effect radius from the center; area within the radius becomes Corrosive (Worsen Save by 1) for 2 turns). 
+
+Destroys Obscuring terrain; damage 1 per turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6c21-9186-1c3d-9c22" name="[Backpack]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="104f-bdfb-ec29-e8b3" name="[Backpack]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">-2” Move (This penalty is for Normal and Fast units only), +1 Weapon slot (5 total instead of 4; If Arming Phase is enabled 3 total instead of 2 per turn). 
+This equipment is excluded from the weapon/skill count. (Can only equip 1.) </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="fb74-64eb-0244-e3a3" name="Weapon" hidden="false" collective="false" import="true" targetId="76c1-6e0f-cc24-5d95" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2bc1-95a5-e11f-75e1" name="[Beam Coating]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="124f-38c2-31f3-2561" name="[Beam Coating]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Negate effect of Beam Weapon Type bonus. (Can only be equipped if the Weapon Type optional rule is enabled.)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a8e4-5a42-2530-7838" name="[Claw Arm]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="f8dc-3e02-bdc7-f5bb" name="[Claw Arm]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Neither</characteristic>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">1 to 10&quot;</characteristic>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">User rolls 1 D6. On a roll of 3+: Pull your target in a straight line towards you up to base contact. Flying units are forced to Land. Cooldown: 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3248-fce3-d03f-5256" name="[Dummy / Decoy]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="2527-741f-b9c7-444e" name="[Dummy / Decoy]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Instead of being destroyed, this equipment takes the damage and leaves your unit with 1 HP. Uses: 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4e8-b98a-aa74-b941" name="[Flight Unit]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="c737-7f00-4f0a-6460" name="[Flight Unit]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">You start the game on Land unless specified in the mission.
+You can Fly / Land only once per turn with each action costing 1 CP.  
+
+While flying: (You can use a token/die to indicate this status) 
+ - Ignore intervening terrain when moving and attacking. Since you can see enemies clearly, they can see you too. 
+ - Only flying units can attack flying units in close combat. 
+ - Can swoop down on ground targets to fight them, but you’ll be forced to land after attacking (No CP cost). 
+ - Unable to capture objectives. Do not detonate mines. 
+ - If the unit’s HP=1, it will be unable to fly. If it’s flying, it’s forcibly grounded. 
+ - While on land, if this unit is within Engagement range of ground enemy units and it flies, this unit will automatically Disengage.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="2.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b16a-31cd-50c2-3a7a" name="[Grappling Device]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="551f-a07c-cb66-7155" name="[Grappling Device]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Neither</characteristic>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">1 to 10&quot;</characteristic>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">User rolls 1 D6. On a roll of 3+: Move your unit up to base contact of the target. Can Fight flying units this activation. Cooldown: 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bee9-a75a-778b-7a99" name="[Heavy Shield]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="dfba-8392-d035-6b17" name="[Heavy Shield]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">+2 Damage reduction if reacted with Guard.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="2.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b504-7b00-2d1d-74b5" name="[Melee Weapon Extender]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="1aeb-1d52-64ec-e6de" name="[Melee Weapon Extender]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Pick 1 from your Melee weapons. +2&quot; Fighting range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b13b-6ed5-920c-5e97" name="[Mine Laying Expert]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="eda1-4f84-909c-ef03" name="[Mine Laying Expert]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Roll 1 D6. On a roll of 4+: For this activation, the unit with this upgrade can perform the action [Plant Mine] or [Acid Mine] up to 2 times instead of just 1, paying 1 CP for each.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce25-bf25-8986-8d0c" name="[Propellant Tank]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="e431-a27c-ad9b-97d0" name="[Propellant Tank]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">+3&quot; Movement when Flying/Hovering</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0cf3-231e-3820-12db" name="[Reinforced Armor]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="edb0-fc96-0304-e270" name="[Reinforced Armor]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Negate effect of Physical Weapon Type bonus. (Can only be equipped if the Weapon Type optional rule is enabled.)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a448-2b81-c3ce-dc24" name="[Scope]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="6364-b752-4fc0-c266" name="[Scope]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Pick 1 from your Ranged weapons. +3&quot; Shooting range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6173-42c9-abf3-b745" name="[Self-Destruct System]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="7781-d319-db49-7d46" name="[Self-Destruct System]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">If a unit with this upgrade is destroyed: All units within a 5-inch indiscriminate blast radius must take 3 Damage (Cannot be reduced or negated). This can also be manually triggered during your activation.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b71-c785-3cbd-1373" name="[Shield]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="cebe-5409-505d-277c" name="[Shield]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">+1 Damage reduction if reacted with Guard.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="815e-56de-153e-3cab" name="[Shock Claw]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="3678-0363-1e49-b46e" name="[Shock Claw]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Neither</characteristic>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">2 to 6&quot;</characteristic>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">User rolls 1 D6. On a roll of 4+: Disable the target, preventing it from using skills, moving, attacking, or reacting for 1 activation. Forcibly lands Flying units. Worsens target&apos;s Save by 1 for 1 turn. Cooldown: 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2032-6283-73f8-83b0" name="[Speed Booster]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="1f6e-ea72-5d90-eb4a" name="[Speed Booster]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">+4&quot; Movement when moving straight (no pivot is allowed, except the free end pivot).  If the unit used this successfully this turn, -1 to its Shooting quality. Unusable while Mounted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5eb-9a74-01c6-1036" name="[Transformable]" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+          <profiles>
+            <profile id="c358-dd0f-3d0a-952d" name="[Transformable]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Unit will gain +4” Move, but can only use 2 loadout slots. 
+
+For weapons, you can take 2 one-handed or 1 two-handed weapon. Which weapons/skills/equipment it can use while transformed should be declared and confirmed to be valid before the game starts. 
+To transform back, you must wait until your next activation. Pay 1 CP, its +4” Move bonus is removed, and it can use 4 loadout slots again. (If Arming Phase is enabled. You can only use 1 slot when transformed.) 
+
+Transforming doesn’t cause CP, but transforming back does.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+            <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+        <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="76c1-6e0f-cc24-5d95" name="Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8622-7874-15db-b24a" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="254b-d136-8a8c-84c6" name="Melee" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a947-f97c-e04a-5210" name="[Axe]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="6f77-23fe-91d9-a57f" name="[Axe]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 3&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c1c5-8930-b809-2c35" name="[Big Axe / Greatsword / Scythe]" publicationId="2ab2-f521-70de-e960" page="1" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="81a1-9a0e-4a03-18ce" name="[Big Axe / Greatsword / Scythe]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 5&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Units that are also within range that are within 5&quot; from the target receive Swing damage. Resolve as normal (React -&gt; Hit -&gt; Save -&gt; Damage -&gt; Guard Reduc (if any)).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6390-df85-8675-f750" name="[B. Saber]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="ba28-f999-dea5-4c7d" name="[B. Saber]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Beam</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e2e-ac70-1f5a-4371" name="[Broadsword / Katana]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="0a50-6749-0094-41c2" name="[Broadsword / Katana]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5d05-7b81-0273-889d" name="[Chainsaw]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="1e81-516f-5e00-0fb3" name="[Chainsaw]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">D3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e113-ee60-36ab-475c" name="[Chainsaw II]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="8393-59bc-09c2-4596" name="[Chainsaw II]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2D3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d05-45ee-cbef-1d8f" name="[Claw]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="ed00-4c15-5a1d-e5b7" name="[Claw]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 3&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f9ac-02ee-d75a-dbfc" name="[Drill]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="b866-6356-2c8d-b875" name="[Drill]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">AP3 at half range</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a5e-3c86-0d48-aaf9" name="[Fists / Baton]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="c23b-f904-16fc-03d6" name="[Fists / Baton]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 3&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec41-0071-09b0-e1e6" name="[Hammer / Mace]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="1e88-8b28-f303-e3f3" name="[Hammer / Mace]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 5&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">2D3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Units that are also within range that are within 5&quot; from the target receive Swing damage. Resolve as normal (React -&gt; Hit -&gt; Save -&gt; Damage -&gt; Guard Reduc (if any)).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c66-881a-ea69-303b" name="[Knife]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="cdc8-1d28-b013-c590" name="[Knife]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 3&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Force target&apos;s Save to 5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6ace-7b10-e351-063a" name="[Piercing Atk]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="c414-f9ac-618a-8793" name="[Piercing Atk]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 5&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b2c7-4c9e-c08c-2288" name="[Spear / Lance]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="5f32-c4fe-4e12-f34a" name="[Spear / Lance]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">1 to 6&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">AP2 at half range</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb39-ff70-df42-c940" name="[Swords]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="b63d-a066-5dd3-8e96" name="[Swords]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e3c8-3f86-01a0-703b" name="[Whip / Staff]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="03e8-d877-a553-467d" name="[Whip / Staff]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 5&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d2f4-85ab-1210-4c10" name="Special" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5418-f0f1-7353-6fdf" name="[Afterimage]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="b9e9-fe8d-2ac0-c89d" name="[Afterimage]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Fast units only. When targeted by a weapon, spend 1 CP to activate this ability. Roll two D3 dice and subtract the total to your Save roll result against all attacks. (e.g. Your Afterimage roll is a total of 2, and your Save is 5+. You&apos;ll succeed on a roll of 3+.)  A Critical Hit can only be saved on an unmodified roll of 6.  (Cooldown: 1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="661f-ca3c-709b-b51c" name="[Brutal]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="819e-8134-f34e-04e5" name="[Brutal]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">If using a Melee weapon with A1: Worsen Fighting quality by 1,  A3. (e.g. If your Fighting quality is 4+, it will become a 5+, making it harder for you to Hit.)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b20-7c10-9eef-3ba9" name="[Destroy Mode]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="9fb7-7518-4a72-f316" name="[Destroy Mode]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">(Self; User rolls 3 dice and they can pick the result. On one roll of 4+: All SUCCESSFUL Weapon/Skill Damage +2. Cooldown: 2)
+
+All SPECIAL Weapon/Skills that boost Damage are added after the Guard damage reduction stage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e84-46aa-f314-f0a3" name="[Palm of Destiny / Disarm]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="6062-30f2-69fe-9d8f" name="[Palm of Destiny / Disarm]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">3</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">2 to 6&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">User rolls 3 D6 and they can pick the result. On one roll of 4+, destroy one Melee or Ranged weapon of the target enemy and remove it from play. 
+Uses: 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1921-0e19-28cc-46fd" name="[Repair Unit]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="637a-d5fa-1126-6157" name="[Repair Unit]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">Self or 3 to 7&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Heal D6 HP</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4922-6f20-e249-1ff0" name="[Paralyzing Mechanism]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="eaea-7be4-dbcd-f014" name="[Paralyzing Mechanism]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 8&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">User rolls 2 D6 and they can pick the result. On one roll of 4+, disable the target preventing it from using skills, moving, attacking, or reacting for their next turn. Forcibly lands flying units. Basically, this forces your opponent to skip 1 activation. Does not require Line of Sight. Cooldown: 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a24b-28b4-ef8f-2173" name="[Trigger Happy]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="2b2f-e45d-0ffa-f997" name="[Trigger Happy]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">If using a Ranged weapon with A1: Worsen Shooting quality by 1,  A3. (e.g. If your Shooting quality is 4+, it will become a 5+, making it harder for you to Hit.)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ca2-870d-6229-e8c1" name="[Transam]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="6bb7-e736-c3ba-1a0f" name="[Transam]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">(Self; User rolls 3 dice and they can pick the result. On one roll of 4+: Subtract 1 to the unit&apos;s total HP unless it&apos;s their last. Cooldown: 2)
+
+ - For this activation, All SUCCESSFUL Weapon/Skill Damage +1; Movement is doubled.
+ - On its activation after that, Movement is halved and Damage is reverted to normal.
+ - Lastly, on its activation after that, restore its Movement to normal.
+
+All SPECIAL Weapon/Skills that boost Damage are added after the Guard damage reduction stage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ae8c-fa76-26db-0f9c" name="Ranged" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="fdf1-cff6-86f6-9bb0" name="[Acid Spray Gun]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="caaa-394c-f30c-13bc" name="[Acid Spray Gun]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Neither</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Worsen Target&apos;s Save by 1 for 1 turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e37d-bf29-fd3c-3d57" name="[B. Magnum]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="3846-ad2a-3614-864b" name="[B. Magnum]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Beam</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df"> - Overcharge: Pay 1CP, ignore terrain when firing this weapon. Destroy Low Cover and/or Obscuring terrains hit by this.
+ - +1 Damage if damage roll = 1, 2, or 3
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c5f0-b198-b55c-27b5" name="[B. Rifle]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="bc7b-3b07-4c5e-17f9" name="[B. Rifle]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Beam</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="54d9-d841-0009-0e46" name="[Bazooka]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="bcd4-d3e4-4772-4190" name="[Bazooka]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 8&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b31c-d546-fcf5-1aa0" name="[Big Cannon / Magic]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="cdec-9f0a-7ea4-911f" name="[Big Cannon / Magic]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Beam</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 14&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-2</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Ignore Guard react and Shields
+
+Overcharge: Pay 1 CP, ignore terrain when firing this weapon. Destroy Low Cover and/or Obscuring terrains hit by this.
+ - +1 Damage if damage roll = 1, 2, or 3
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d5a5-e67e-72bf-55c7" name="[Bit Staves]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="e093-9e84-d623-6b67" name="[Bit Staves]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">If used Bit Staves this turn: until your next turn. the user cannot Guard</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e015-2ae4-f9e8-0451" name="[Blade Beam]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="5fa3-9679-7a6d-b57b" name="[Blade Beam]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Beam</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Use Fighting quality.
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="465d-bd2a-e199-9b0f" name="[Bow]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="5181-1b2f-effc-5f1e" name="[Bow]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 12&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">AP1 at half range
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b45d-aade-9921-2153" name="[Cannon]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="2e98-8ae7-bf41-a966" name="[Cannon]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="feec-84e7-1558-ad1d" name="[Gatling Gun]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="4435-81d6-3537-10a7" name="[Gatling Gun]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">D6</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="abee-6348-9d6f-24ac" name="[Machine Gun / Flamethrower]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="29ad-07e6-a92b-f3ca" name="[Machine Gun / Flamethrower]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Neither</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">D6</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f153-bb75-a6be-984c" name="[Missile]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="03a5-5111-787f-6e71" name="[Missile]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 8&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="652c-5597-eba7-5662" name="[Pistol / Basic Gun]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="0fe2-6a6d-7185-5e9d" name="[Pistol / Basic Gun]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">2 to 7&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">AP1 at half range
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fb2d-029c-b59a-5308" name="[Shotgun]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="3a0b-974e-b6bb-39be" name="[Shotgun]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">D3</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">AP2 at half range
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5640-71ed-66ce-9bb3" name="[Small Cannons / Lesser Magic]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="482d-730e-3c05-284c" name="[Small Cannons / Lesser Magic]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 11&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">AP1 at half range
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e719-ab1c-ac4b-56c6" name="[Sniper Rifle]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="83f6-2556-dfa4-da6a" name="[Sniper Rifle]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 14&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-1</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">+1 Damage if damage roll = 1 or 2
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cad2-3cf7-6541-3e01" name="[Throw Weapon]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="a3fb-1807-c916-ab1f" name="[Throw Weapon]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 8&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Use Fighting quality. Forcibly lands flying units (Cooldown: 1 turn (Get weapon))
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df0e-28bb-38d5-9a2a" name="[Vulcan]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="1e76-a71d-2818-f32a" name="[Vulcan]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">1 to 7&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">4</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">1</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b2e-ed66-07e7-8572" name="[Wire-guided Weapon]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="fd51-341e-a66f-df8b" name="[Wire-guided Weapon]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">2 to 8&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-3</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Pull Target: Roll a D6, on a 4+ pay 1 CP then move your target in a straight line towards you.
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dddf-c9cd-8cbd-8790" name="[Grenade Launcher]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="e5c9-7e6e-5e65-7e55" name="[Grenade Launcher]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Physical</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">3 to 10&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">D6</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">1</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Single target only. 4&quot; indiscriminate blast radius from target, 5+ to Save.
+Splash damage can hit self.
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="10a3-d165-c336-82bc" name="Defensive" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="cdc4-0df0-fc65-7c47" name="[Defensive Stance]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="e193-ef5b-f6ef-5e7f" name="[Defensive Stance]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Cannot get attacked until next activation (Can attack)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a118-91e7-1c8b-0631" name="Remote Weapons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="41c4-f6b0-5239-532e" name="[Control System]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="349b-8ee1-e00a-b559" name="[Control System]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Re-roll Funnel deployment roll. 1CP per D3 re-roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2a75-7d14-2907-3ab3" name="[Funnel Armor]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="de56-f8cd-7e35-58f0" name="[Funnel Armor]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Funnels have their HP and armor Save improved by 1 (Sv4+)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7fb6-c70e-d067-6121" name="[Funnels - Ranged]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="7bfa-36cc-8044-e7e5" name="[Funnels - Ranged]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">3</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">2 to 9&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">1</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Deploy up to 2D3 number of Funnels within 4&quot; from the &quot;Mother&quot; unit. They may not act on the turn they came in. Funnels have 1HP, 5&quot; Move, and Shooting quality of 4+; They cannot Guard or Evade when targeted but have an armor Save of 5+. Each funnel may activate once per turn, alternating with the opposing team unless they&apos;ve activated all their eligible units; if so, you may activate all remaining funnels in succession. 
+
+Each funnel destroyed is -1HP to the Mother unit unless it&apos;s their last HP. (Cooldown: 3)
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="30cd-1de3-44b3-88cd" name="[Funnels - Melee]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="2598-af47-3a22-520b" name="[Funnels - Melee]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">3</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 3&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">1</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Deploy up to 2D3 number of Funnels within 4&quot; from the &quot;Mother&quot; unit. They may not act on the turn they came in. Funnels have 1HP, 8&quot; Move, and Fighting quality of 4+; They cannot Guard or Evade when targeted but have an armor Save of 5+. Each funnel may activate once per turn, alternating with the opposing team unless they&apos;ve activated all their eligible units; if so, you may activate all remaining funnels in succession. 
+
+Each funnel destroyed is -1HP to the Mother unit unless it&apos;s their last HP. (Cooldown: 3)
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="94af-8967-d4ed-c349" name="[Puppeteer]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="b89b-2edf-818b-4a2f" name="[Puppeteer]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0"/>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Funnels have a Shooting or Fighting quality of 3+ (Choose and declare when revealing your datasheet). When destroyed, each funnel subtracts 2 HP from the Mother unit&apos;s total HP instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4050-d584-5e12-9e89" name="[Support Weapon - Ranged]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="7888-dc0f-e817-7aae" name="[Support Weapon - Ranged]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">2 to 9&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Deploy within 4&quot; from the &quot;Mother&quot; unit. They may not act on the turn they came in. Support Weapon - Ranged has 3HP, 6&quot; Move, and Shooting quality of 3+; It cannot Guard or Evade when targeted but has an armor Save of 5+. 
+
+When this is destroyed, subtract 2 HP to the Mother unit unless it&apos;s their last HP. (Can only be summoned once per game.)
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4af3-9dca-0823-4945" name="[Support Weapon - Melee]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="fdfc-0216-7f6d-c50b" name="[Support Weapon - Melee]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8">Either</characteristic>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">2</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 4&quot;</characteristic>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">2</characteristic>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Deploy within 4&quot; from the &quot;Mother&quot; unit. They may not act on the turn they came in. Support Weapon - Melee has 3HP, 9&quot; Move, and Fighting quality of 3+; It cannot Guard or Evade when targeted but has an armor Save of 5+. 
+
+When this is destroyed, subtract 2 HP to the Mother unit unless it&apos;s their last HP. (Can only be summoned once per game.)
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+        <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="14a1-bb65-00cb-cbb0" name="Expertise" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ce-532d-b738-1dcb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8791-5118-a65c-e757" type="min"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
