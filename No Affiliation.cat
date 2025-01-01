@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f84a-8dd0-9c65-2637" name="No Affiliation" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9c6f-a477-68d5-f652" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f84a-8dd0-9c65-2637" name="No Affiliation" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="9c6f-a477-68d5-f652" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="6397-4b5e-f883-b1a6" name="Normal" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1025,7 +1025,7 @@ Transforming doesn’t cause CP, but transforming back does.</characteristic>
                     <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 5&quot;</characteristic>
                     <characteristic name="Hands" typeId="4d09-8535-7657-e58b">2</characteristic>
                     <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">1</characteristic>
-                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"></characteristic>
                     <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">2D3</characteristic>
                     <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Units that are also within range that are within 5&quot; from the target receive Swing damage. Resolve as normal (React -&gt; Hit -&gt; Save -&gt; Damage -&gt; Guard Reduc (if any)).</characteristic>
                   </characteristics>
@@ -1046,7 +1046,7 @@ Transforming doesn’t cause CP, but transforming back does.</characteristic>
                     <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84">0 to 3&quot;</characteristic>
                     <characteristic name="Hands" typeId="4d09-8535-7657-e58b">1</characteristic>
                     <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b">2</characteristic>
-                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3">1</characteristic>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"></characteristic>
                     <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8">D6-4</characteristic>
                     <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Force target&apos;s Save to 5+</characteristic>
                   </characteristics>
@@ -1314,6 +1314,27 @@ Uses: 1</characteristic>
  - Lastly, on its activation after that, restore its Movement to normal.
 
 All SPECIAL Weapon/Skills that boost Damage are added after the Guard damage reduction stage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
+                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0edd-585c-d5f2-c024" name="[Charge]" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
+              <profiles>
+                <profile id="263c-fd6a-62fa-f275" name="[Charge]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
+                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
+                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
+                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
+                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
+                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
+                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
+                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Do not attack this activation. Improve chance to Hit by 1 and +1 Damage next activation.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

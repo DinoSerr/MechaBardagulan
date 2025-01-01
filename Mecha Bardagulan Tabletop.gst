@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c6f-a477-68d5-f652" name="Mecha Bardagulan Tabletop" revision="1" battleScribeVersion="2.03" authorName="Ser Michael Paloyo" authorContact="https://www.facebook.com/groups/mechabardagulantabletop" authorUrl="https://www.youtube.com/playlist?list=PL11QGpB7yKcCujmcaQcActrqLxeK1ycd9" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c6f-a477-68d5-f652" name="Mecha Bardagulan Tabletop" revision="2" battleScribeVersion="2.03" authorName="Ser Michael Paloyo" authorContact="https://www.facebook.com/groups/mechabardagulantabletop" authorUrl="https://www.youtube.com/playlist?list=PL11QGpB7yKcCujmcaQcActrqLxeK1ycd9" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Easy to learn tabletop game where you can use your figures to do battle. You can use models of various scales such as 1/144, 1/100, 1/400, 1/285. Even 30 MINUTE MISSIONS, 30 MINUTE SISTERS, FRAME ARMS GIRLS, HG/RG/MG, Artifact, Converge, Ensemble, figma, etc.</comment>
   <readme>Core rules: https://docs.google.com/document/d/1m7hAGZZCRFTxbrwWqq2rwMbCQUzR23jK8NL-VEXYLd4/edit?usp=sharing
 
@@ -49,10 +49,10 @@ https://discord.gg/jzxzD5KHgA</readme>
   </forceEntries>
   <sharedRules>
     <rule id="6f42-0971-ab8e-5296" name="Default Ranged" page="" hidden="false">
-      <description>These default skills can only be used if no CP-consuming damage-dealing attack is used this turn (can be used with COMMON SKILLS). They do not take up a loadout slot.</description>
+      <description>0 CP, No Bonus, 3 to 10&quot;, A1, D6-4. These default skills can only be used if no CP-consuming damage-dealing attack is used this turn (can be used with COMMON SKILLS). They do not take up a loadout slot.</description>
     </rule>
     <rule id="b52a-71be-0d1c-7ae3" name="Default Melee" page="" hidden="false">
-      <description>These default skills can only be used if no CP-consuming damage-dealing attack is used this turn (can be used with COMMON SKILLS). They do not take up a loadout slot.</description>
+      <description>0 CP, No Bonus, 0 to 3&quot;, A1, AP1, D6-3. These default skills can only be used if no CP-consuming damage-dealing attack is used this turn (can be used with COMMON SKILLS). They do not take up a loadout slot.</description>
     </rule>
     <rule id="cd82-ae3f-ebd9-b89b" name="Ready" page="" hidden="false">
       <description>1 CP: Improve Shooting or Fighting quality by 1 (Should not move this activation) Has no effect if said stat is 2 and above to Hit (e.g. if your Shooting quality is 4+, it will become a 3+, making it easier for you to Hit.) 
@@ -86,7 +86,7 @@ https://discord.gg/jzxzD5KHgA</readme>
       <description>2 CP: Improve Shooting or Fighting quality by 1. (Can attack after) Has no effect if said stat is 2 and above to Hit (e.g. if your Shooting quality is 4+, it will become a 3+, making it easier for you to Hit.)</description>
     </rule>
     <rule id="6557-622d-faae-80ab" name="Fly / Hover" page="" hidden="false">
-      <description>(2 CP) While flying: (You can use a token/die to indicate this status)
+      <description>2 CP: While flying: (You can use a token/die to indicate this status)
  - Ignore intervening terrain when moving and attacking. Since you can see enemies clearly, they can see you too.
  - Only flying units can attack flying units in close combat.
  - Can swoop down on ground targets to fight them, but you’ll be forced to land after attacking (No CP cost).
@@ -109,13 +109,13 @@ https://discord.gg/jzxzD5KHgA</readme>
 </description>
     </rule>
     <rule id="b5c5-05bc-811c-574f" name="Plant Mine" page="" hidden="false">
-      <description>1 CP Note down its exact location. All mines can&apos;t be deployed within 4” of the enemy.
+      <description>1 CP: Note down its exact location. All mines can&apos;t be deployed within 4” of the enemy.
 SETUP: Plant a hidden mine within 3&quot; from the unit performing this action.
 DETONATION: 3&quot; from marker center. Player who placed the mine must roll 1D6, activates on a 3+ (4-inch indiscriminate blast radius, Save 5+). Damage 3.
 </description>
     </rule>
     <rule id="168e-fdef-82fb-8de6" name="Emergency Reactive Armor" page="" hidden="false">
-      <description>(1 CP) TRIGGER: If the unit targeting your mech is using a weapon/skill/equipment with more than 1 attack. After they roll to Hit.
+      <description>1 CP: TRIGGER: If the unit targeting your mech is using a weapon/skill/equipment with more than 1 attack. After they roll to Hit. 
 EFFECT: Roll 1D6, subtract the result to the attacker&apos;s total Number of Attacks. Can reduce incoming Hits to 0. (Uses: Once per game)
 </description>
     </rule>
