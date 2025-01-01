@@ -1322,27 +1322,6 @@ All SPECIAL Weapon/Skills that boost Damage are added after the Guard damage red
                 <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0edd-585c-d5f2-c024" name="[Charge]" hidden="false" collective="false" import="true" type="upgrade">
-              <comment>(1 CP, E, 0 to 3&quot;, A1, AP2, D6-2)</comment>
-              <profiles>
-                <profile id="263c-fd6a-62fa-f275" name="[Charge]" hidden="false" typeId="bc41-33b4-6847-e6e6" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Weapon Type" typeId="a169-7984-1d35-3fd8"/>
-                    <characteristic name="CP Cost" typeId="4f41-e39e-bbee-5eb0">1</characteristic>
-                    <characteristic name="Range" typeId="b5f5-d1f8-a202-3c84"/>
-                    <characteristic name="Hands" typeId="4d09-8535-7657-e58b"/>
-                    <characteristic name="# of Attacks" typeId="e364-ad5a-d74e-f80b"/>
-                    <characteristic name="Armor Piercing" typeId="7432-ab0d-f99e-b0f3"/>
-                    <characteristic name="Damage" typeId="bb7f-f6c0-2b89-73a8"/>
-                    <characteristic name="Special Rules" typeId="01b4-e880-f374-49df">Do not attack this activation. Improve chance to Hit by 1 and +1 Damage next activation.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" Loadout slot" typeId="ff28-9d3e-390b-0cb9" value="1.0"/>
-                <cost name=" Team Composition" typeId="5652-d8f2-2a3a-3bb3" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ae8c-fa76-26db-0f9c" name="Ranged" hidden="false" collective="false" import="true">
